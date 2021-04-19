@@ -5,7 +5,11 @@ body {
   cursor: pointer;
 }
 body {
-  color: #34495e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .clicked {
