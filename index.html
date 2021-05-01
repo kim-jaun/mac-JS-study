@@ -16,7 +16,16 @@
     <form class="js-toDoForm">
       <input type="text" placeholder="Write a to do" />
     </form>
-    <ul class="js-toDoList"></ul>
+    <div class="list">
+      <div class="pending">
+        <h2>Pending</h2>
+        <ul class="js-toDoList"></ul>
+      </div>
+      <div class="finished">
+        <h2>Finished</h2>
+        <ul class="js-finishedList"></ul>
+      </div>
+    </div>
     <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="gretting.js"></script>

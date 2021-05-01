@@ -10,6 +10,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
 }
 
 .clicked {
@@ -21,6 +28,7 @@ body {
 }
 .showing {
   display: block;
+  font-size: 25px;
 }
 
 @keyframes fadeIn {
@@ -40,4 +48,26 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+.js-form input,
+.js-toDoForm input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.js-form input,
+.js-toDoForm input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+.js-form input::placeholder,
+.js-toDoForm input::placeholder {
+  color: white;
+}
+.fontStyle {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 20px;
 }
