@@ -80,6 +80,7 @@ function paintPending(text) {
   delBtn.addEventListener("click", deletePending);
   finBtn.addEventListener("click", checkTasks);
   span.innerText = text;
+  span.classList.add("textStyle");
   li.appendChild(span);
   li.appendChild(delBtn);
   li.appendChild(finBtn);
