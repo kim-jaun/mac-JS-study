@@ -11,6 +11,8 @@ body {
   align-items: center;
   flex-direction: column;
   font-size: 20px;
+  width: 100%;
+  height: 100%;
 }
 h1 {
   font-size: 70px;
@@ -44,7 +46,7 @@ h1 {
 }
 
 .bgImage {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -75,4 +77,10 @@ h1 {
   font-size: 20px;
   margin-left: 10px;
   margin-right: -15px;
+}
+
+.js-weather {
+  display: block;
+  bottom: 0;
+  right: 0;
 }
